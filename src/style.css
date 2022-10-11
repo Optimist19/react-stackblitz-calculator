@@ -1,3 +1,68 @@
+/* .big-container{
+	max-width: 18vw;
+	max-height: 52vh;
+	background-color: rgb(216, 162, 162);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3vh;
+	margin-top: 20vh;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.small-container{
+	width: 100%;
+	max-height: 52vh;
+	display: flex;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-color: rgba(39, 36, 36, 0.5);
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	align-items:flex-start;
+	justify-content: center;
+
+
+}
+
+.div-container{
+	margin: 3px;
+}
+
+.first-column{
+	color: red
+}
+
+.div-container div{
+	padding: 12px;
+	border-radius: 6px;
+	background-color: rgb(138, 135, 135);
+	text-align: center;
+	margin-bottom: 3px;
+	
+}
+
+.long{
+	color: blue;
+}
+
+p{
+	margin: 0;
+	text-align: center;
+}
+
+input{
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-right: 5.2vw;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+} */
+
 .big-container{
 	display: flex;
 	flex-direction: column;
@@ -7,18 +72,24 @@
 
 
 .small-container{
-	border: 1px solid red;
+	border: 8px solid black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-color: rgb(100, 100, 245);
+	padding-top: 4vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right:2vw;
+	border-radius: 4px;
 	/* padding: 10px; */
 	/* max-width: 19vw; */
 }
 
 input{
 	padding-top: 3vh;
+	margin-bottom: 6px;
 }
 
 
@@ -27,10 +98,16 @@ input{
 	/* flex-direction: column; */
 }
 
-.button-container button{
-	padding: 1vw;
-	border-radius: 10px;
+button, .seven{
+	padding: 15px;
+	border-radius: 2px;
+	/* padding-top: 2vh; */
 	margin: 2px;
+	background-color: rgb(127, 255, 212);
+}
+
+button:hover{
+	background-color: rgba(127, 255, 212, 0.8);
 }
 
 
