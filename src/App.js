@@ -17,6 +17,7 @@ const App = () => {
 		console.log("val", val);
 		console.log("event.target.value", event);
 		try{
+			// eslint-disable-next-line
 			setVal(val.slice(0, -1))
 		}catch(error){
 			setVal("")
@@ -28,6 +29,7 @@ const App = () => {
 		console.log("val", val);
 		console.log("event.target.value", event);
 		try{
+			// eslint-disable-next-line
 			setVal(eval(val))
 		}catch(error){
 			setVal("ERROR")
